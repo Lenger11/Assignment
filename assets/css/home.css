@@ -88,3 +88,48 @@ li.active a:after {
     text-decoration: none;
     color: black;
 }
+
+.container_text #information {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+
+#information b {
+    text-decoration: underline;
+}
+
+.container_text li {
+    padding-bottom: 20px;
+}
+
+.aboutme_container {
+    padding: 3% 0% 0% 27%;
+}
+
+.aboutme_container span {
+    background-color: rgb(255, 187, 0);
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.aboutme_container table {
+    width: 100%;
+}
+
+.aboutme_container .extraInfo {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.aboutme_container img {
+    width: 100px;
+    height: 100px;
+}
+
+.funfacts img {
+    width: 150px;
+}
