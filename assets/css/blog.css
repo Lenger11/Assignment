@@ -73,6 +73,7 @@ li.active a:after {
     border: 1px solid gray;
     display: inline-block;
     text-align: center;
+    margin: 15px;
 }
 
 .image img {
