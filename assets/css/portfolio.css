@@ -83,6 +83,8 @@ li.active a:after {
 .menu-wrapper {
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 5px;
 }
 
 .menu-wrapper > div {
