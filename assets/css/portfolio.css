@@ -59,51 +59,61 @@ li.active a:after {
 }
 
 .portfolio_container {
-    padding: 3% 0% 0% 27%;
+    margin-left: 27%;
 }
 
-.portfolio_container span {
-    background-color: rgb(255, 187, 0);
+.title-wrapper {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.title-wrapper .title{
+    background-color: rgb(250, 198, 130);
+    padding: 0.75rem 1.5rem 0.75rem 3.75rem;
     color: white;
-    padding: 10px;
-    font-size: 2rem;
+    font-weight: bold;
 }
 
-.image img {
-    width: 250px;
-    height: 250px;
-    padding: 10px;
+.title-wrapper .sub-title {
+    padding: 0.75rem 0rem 0.75rem 1.5rem;
+    font-size: smaller;
+    color: rgb(192, 195, 198);
 }
 
-.port_nav_container {
-    text-align: center;
+.menu-wrapper {
+    display: flex;
+    justify-content: center;
 }
 
-#port_nav {
-    list-style-type: none;
-    display: inline-flex;
-    font-size: 1.5rem;
+.menu-wrapper > div {
+    padding: 0.75rem;
+    margin-top: 2.25rem;
 }
 
-#port_nav .active {
-    background-color: #f4c052;
+.menu-wrapper > div.active {
+    padding: 0.75rem;
+    background-color: rgb(250, 198, 130);
     color: white;
 }
 
-#port_nav li {
-    padding: 7px;
+.images-wrapper {
+    margin: 3rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
 }
 
-@media only screen and (max-width: 426) {
-    .image img{
-        display: flex;
-        flex-wrap: wrap;
-    }
+.images-wrapper .image-item {
+    width: 15rem;
 }
 
-@media only screen and (max-width: 768) {
-    .image img{
-        display: flex;
-        flex-wrap: wrap;
+.image-item img {
+    width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    .images-wrapper .image-item {
+        width: 10rem;
     }
 }
